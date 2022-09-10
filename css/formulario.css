@@ -11,6 +11,7 @@ form {
   align-items: center;
   min-width: 320px;
   max-width: 1024px;
+  width: 100%;
   height: 480px;
   margin: 20px auto;   
   padding: 10px;
@@ -43,12 +44,12 @@ form {
   flex-basis:auto;
   margin-bottom: 35px;  
   width: 100%;
-  min-width: 420px;
+  min-width: 320px;
   max-width: 600px;
 }
 .grupo-campo > input, .grupo-campo > select {
-  height: 42px;
-  padding-left: 15px;
+  height: 32px;
+  padding-left: 5px;
   min-width: 320px;
   max-width: 600px;
   width: 100%;
