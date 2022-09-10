@@ -1,0 +1,61 @@
+
+form {
+  min-width: 320px;
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+}
+#campo-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  max-width: 1024px;
+  height: 480px;
+  margin: 20px auto;   
+  padding: 10px;
+  color: var(--cor5);
+  font-size: 1.3em;
+  font-weight: 500;
+  border: 1px dotted var(--cor0);
+  border-radius: 30px;
+  background-image: linear-gradient(45deg, transparent,var(--cor1), var(--cor2),var(--cor1), transparent);
+  /* background-image: linear-gradient(200deg, var(--cor6),var(--cor1), var(--cor0),var(--cor1),var(--cor6)); */
+}
+
+#campo-formulario > button {
+  background-color: var(--cor1);
+  color: var(--cor6);
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+}
+#campo-formulario > button:hover {
+  background-color: var(--cor1);
+  color: var(--cor6);
+  box-shadow: 1px 1px 5px 5px rgba(255, 255, 255, 0.517);
+  text-transform: uppercase;
+}
+.grupo-campo {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis:auto;
+  margin-bottom: 35px;  
+  width: 100%;
+  min-width: 420px;
+  max-width: 600px;
+}
+.grupo-campo > input, .grupo-campo > select {
+  height: 42px;
+  padding-left: 15px;
+  min-width: 420px;
+  max-width: 600px;
+  width: 100%;
+}
+.grupo-campo > label {
+  margin-bottom: 10px;
+}
+.grupo-campo > input:hover {
+  background-color: var(--cor0);
+}
