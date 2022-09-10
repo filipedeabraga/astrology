@@ -70,15 +70,15 @@ header > p {
     
 }
 
-@media all and (min-width:420px) and (max-width:768px){
+@media all and (min-width:320px) and (max-width:768px){
     header {
         height: 175px;
     }
     header > h1 {
         font-size: 1.5em;
         font-weight: 600;
-        padding-bottom: 10px;
-        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.358);
+        padding-bottom: 5px;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.358);
     }
     header > p {
         /* display: none; */
@@ -87,7 +87,7 @@ header > p {
         padding-bottom: 70px;
     }
     header > figure > img {
-        width: 55px;
+        width: 50px;
     }
 }
 
@@ -150,7 +150,7 @@ nav > a:hover {
     margin: 0px 15px 0px 15px;
 }
 
-@media all and (min-width:420px) and (max-width:800px){
+@media all and (min-width:320px) and (max-width:768px){
     nav {
         padding: 2px;
         height: 32px;
@@ -158,13 +158,13 @@ nav > a:hover {
     nav > a {
         margin: 0 1px 0 1px;
         font-size: 0.65em;
-        padding: 8px 8px;
+        padding: 5px 5px;
     }
     nav > a:hover {
         background-color: #00264376;
         color: #ffc9af;
         font-size: 0.7em;
-        margin: 0px 8px 0px 8px;
+        margin: 0px 1px 0px 1px;
     }
 }
 
@@ -211,7 +211,7 @@ article > p {
     padding: 20px;
 }
 
-@media all and (min-width:420px) and (max-width:768px){
+@media all and (min-width:320px) and (max-width:768px){
     main {
         padding: 5px;
         
@@ -225,6 +225,7 @@ article > p {
     }
     main > article > p {
         font-size: 0.8em;
+        padding: 5px;
     }
 }
 
