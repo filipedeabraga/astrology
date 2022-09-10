@@ -23,18 +23,35 @@ form {
   background-image: linear-gradient(45deg, transparent,var(--cor1), var(--cor2),var(--cor1), transparent);
   /* background-image: linear-gradient(200deg, var(--cor6),var(--cor1), var(--cor0),var(--cor1),var(--cor6)); */
 }
+@media all and (min-width:320px) and (max-width:768px){
+  #campo-formulario {
+    height: 350px;
+    font-size: 1em;
+    border-radius: 15px;
+  }
+  #campo-formulario > button{
+    width: 60%;
+  }
+  fieldset > .grupo-campo {
+    margin-bottom: 20px;
+  }
+  fieldset > .grupo-campo > input, fieldset > .grupo-campo > select {
+    height: 28px;
+    min-width: 220px;
+    width: 90%;
+    margin: auto;
+  }
+}
 
 #campo-formulario > button {
-  background-color: var(--cor1);
+  background-color: var(--cor4);
   color: var(--cor6);
   font-weight: bold;
   padding: 10px 20px;
-  border: none;
   border-radius: 15px;
 }
 #campo-formulario > button:hover {
-  background-color: var(--cor1);
-  color: var(--cor6);
+  color: var(--cor0);
   box-shadow: 1px 1px 5px 5px rgba(255, 255, 255, 0.517);
   text-transform: uppercase;
 }

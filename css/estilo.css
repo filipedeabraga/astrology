@@ -186,7 +186,6 @@ main > article > h1 {
     font-family: var(--font-bonita);
     font-size: 2em;
     padding-left: 10px;
-    margin: 25px 0 20px 0;
     border-radius: 25px 0px 0px 0px;
     color: var(--cor5);
     background-image: linear-gradient(to right, var(--cor2), var(--cor1), transparent);
@@ -195,7 +194,6 @@ main > article > h1 {
 main > article > h2 {
     font-family: var(--font-bonita);
     font-size: 1.7em;
-    margin-bottom: 20px;
     padding-left: 20px;
     color: var(--cor5);
     border-radius: 25px 0px 0px 0px;
