@@ -1,5 +1,5 @@
 /* ================= index.html ====================== */
-@media all and (min-width:380px) and (max-width:768px){
+@media all and (min-width:320px) and (max-width:768px){
     header {
         height: 145px;
     }
@@ -19,7 +19,7 @@
         width: 50px;
     }
 }
-@media all and (min-width:380px) and (max-width:768px){
+@media all and (min-width:320px) and (max-width:768px){
     nav {
         padding: 2px;
         height: 32px;
@@ -37,7 +37,7 @@
         margin: 0px 1px 0px 1px;
     }
 }
-@media all and (min-width:380px) and (max-width:768px){
+@media all and (min-width:320px) and (max-width:768px){
     main {
         padding: 5px;
         
@@ -45,7 +45,7 @@
     main > article > h1 {
         font-size: 1.4em;
         padding: 3px 0px 3px 15px;
-        margin-top: 1px;
+        margin-top: 2px;
     }
     main > article > h2 {
         font-size: 1.2em;
@@ -53,12 +53,12 @@
         margin-top: 1px;
     }
     main > article > p {
-        font-size: 0.95em;
+        font-size: 0.85em;
         padding: 5px;
     }
     article > img, .foto01 {
       margin-bottom: 10px;
-      }
+    }
    
 }
 /* ================= Fim ! ====================== */
