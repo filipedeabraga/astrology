@@ -1,9 +1,7 @@
 @charset "utf-8";
-
+@import url('mediaqueries.css');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 :root {
@@ -70,28 +68,6 @@ header > p {
     
 }
 
-@media all and (min-width:320px) and (max-width:768px){
-    header {
-        height: 175px;
-    }
-    header > h1 {
-        font-size: 1.5em;
-        font-weight: 600;
-        padding-bottom: 5px;
-        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.358);
-    }
-    header > p {
-        /* display: none; */
-        font-size: 0.7em;
-        width: 300px;
-        padding-bottom: 70px;
-    }
-    header > figure > img {
-        width: 50px;
-    }
-}
-
-
 figure {
     margin: 25px 0;
     border-radius: 50%;
@@ -112,18 +88,6 @@ figure > img {
     /* 75% {box-shadow:1px 1px 10px 1px var(--cor1);top:  5%;} */
     100%{box-shadow:1px 1px 10px 1px var(--cor1);top: -4%;}
 }
-
-/* @keyframes example {
-  0%   {top:-90px;}
-  10%  {top:50px;}
-  20%  {top:-60px;}
-  30%  {top:40px;}
-  40%  {top:-30px;}
-  50%  {top:30px;}
-  60%  {top:0px; }
-  75%  {top:20px;}
-  100% {top:0px;}
-} */
 
 nav {
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor6));
@@ -148,25 +112,6 @@ nav > a:hover {
     color: #ffc9af;
     font-size: 1em;
     margin: 0px 15px 0px 15px;
-}
-
-@media all and (min-width:320px) and (max-width:768px){
-    nav {
-        padding: 2px;
-        height: 32px;
-        text-align: center;
-    }
-    nav > a {
-        margin: 0 1px 0 1px;
-        font-size: 0.65em;
-        padding: 5px 5px;
-    }
-    nav > a:hover {
-        background-color: #00264376;
-        color: #ffc9af;
-        font-size: 0.7em;
-        margin: 0px 1px 0px 1px;
-    }
 }
 
 
@@ -209,26 +154,6 @@ article > p {
     text-indent: 40px;
     padding: 20px;
 }
-
-@media all and (min-width:320px) and (max-width:768px){
-    main {
-        padding: 5px;
-        
-    }
-    main > article > h1 {
-        font-size: 1.2em;
-        margin-top: 25px;
-    }
-    main > article > h2 {
-        font-size: 1.1em;
-    }
-    main > article > p {
-        font-size: 0.8em;
-        padding: 5px;
-    }
-}
-
-
 article > img {
     width: 100%;
     margin-bottom: 50px;

@@ -1,0 +1,84 @@
+/* ================= index.html ====================== */
+@media all and (min-width:320px) and (max-width:768px){
+    header {
+        height: 175px;
+    }
+    header > h1 {
+        font-size: 1.5em;
+        font-weight: 600;
+        padding-bottom: 5px;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.358);
+    }
+    header > p {
+        /* display: none; */
+        font-size: 0.7em;
+        width: 300px;
+        padding-bottom: 70px;
+    }
+    header > figure > img {
+        width: 50px;
+    }
+}
+@media all and (min-width:320px) and (max-width:768px){
+    nav {
+        padding: 2px;
+        height: 32px;
+        text-align: center;
+    }
+    nav > a {
+        margin: 0 1px 0 1px;
+        font-size: 0.65em;
+        padding: 5px 5px;
+    }
+    nav > a:hover {
+        background-color: #00264376;
+        color: #ffc9af;
+        font-size: 0.7em;
+        margin: 0px 1px 0px 1px;
+    }
+}
+@media all and (min-width:320px) and (max-width:768px){
+    main {
+        padding: 5px;
+        
+    }
+    main > article > h1 {
+        font-size: 1.2em;
+        margin-top: 25px;
+    }
+    main > article > h2 {
+        font-size: 1.1em;
+    }
+    main > article > p {
+        font-size: 0.8em;
+        padding: 5px;
+    }
+}
+/* ================= Fim ! ====================== */
+
+
+
+/* ================= atendimento.html =========== */
+@media all and (min-width:320px) and (max-width:768px){
+  #campo-formulario {
+    height: 350px;
+    font-size: 1em;
+    border-radius: 15px;
+  }
+  #campo-formulario > button{
+    width: 60%;
+  }
+  fieldset > .grupo-campo {
+    margin-bottom: 20px;
+  }
+  fieldset > .grupo-campo > input, fieldset > .grupo-campo > select {
+    height: 28px;
+    min-width: 220px;
+    width: 90%;
+    margin: auto;
+  }
+  fieldset > .grupo-campo > label {
+    margin-left: 20px;
+  }
+}
+/* ============================================== */
