@@ -139,31 +139,32 @@ main > article > h1 {
 main > article > h2 {
     font-family: var(--font-bonita);
     font-size: 1.5em;
-    padding: 10px 0px 10px 15px;
     text-decoration: underline;
+    padding: 10px 0px 10px 15px;
+    margin-top: 30px;
     color: var(--cor5);
     border-radius: 25px 0px 0px 0px;
     background-image: linear-gradient(to right, var(--cor2), var(--cor1), transparent);
 }
 
-article > p {
+main > article > p {
     font-family: var(--font-astrologia);
     font-size: 1.2em;
     font-weight: 500;
     line-height: 2em;
     text-align: justify;
     text-indent: 40px;
-    padding: 20px;
+    padding:15px 25px 15px 25px ;
 }
 article > img {
     width: 100%;
-    margin-bottom: 50px;
+    margin: 10px auto 50px auto;
 }
 
 img.foto01 {
     width: 100%;
-    margin: auto;
-    margin-bottom: 50px;
+    margin: 10px auto 50px auto;
+    
 }
 
 footer > img {
