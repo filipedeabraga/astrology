@@ -73,7 +73,7 @@
     border-radius: 15px;
   }
   #campo-formulario > button{
-    width: 60%;
+    width: 80%;
   }
   fieldset > .grupo-campo {
     margin-bottom: 20px;
@@ -81,11 +81,11 @@
   fieldset > .grupo-campo > input, fieldset > .grupo-campo > select {
     height: 28px;
     min-width: 220px;
-    width: 90%;
+    width: 80%;
     margin: auto;
   }
   fieldset > .grupo-campo > label {
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .mapa-astral, .sol, .cartografia {
     height: 135px;
