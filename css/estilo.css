@@ -37,7 +37,7 @@ header {
     /* background-color: var(--cor3); */
     background-image: linear-gradient(to top, var(--cor4), var(--cor6));
     /* background-image: linear-gradient(to top, var(--cor2),var(--cor3)); */
-    height: 350px;
+    height: 280px;
     text-align: center;
     padding-top:40px;
     display: flex;
