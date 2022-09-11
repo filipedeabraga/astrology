@@ -56,12 +56,10 @@
         font-size: 0.95em;
         padding: 5px;
     }
-    article > img {
+    article > img, .foto01 {
       margin-bottom: 10px;
-    }
-    article > .foto01 {
-      margin-bottom: 10px;
-    }
+      }
+   
 }
 /* ================= Fim ! ====================== */
 
@@ -89,5 +87,10 @@
   fieldset > .grupo-campo > label {
     margin-left: 20px;
   }
+  .mapa-astral, .sol, .cartografia {
+    height: 170px;
+  }
+
 }
+
 /* ============================================== */
