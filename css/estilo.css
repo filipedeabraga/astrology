@@ -44,6 +44,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column; 
+    position: relative;
  }
 
 header > h1 {
@@ -96,6 +97,9 @@ nav {
     width: 100%;
     padding: 20px;
     box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.434);
+    position: sticky;
+    top:0;
+    
 }
 
 nav > a {
@@ -106,6 +110,7 @@ nav > a {
     border-radius: 15px;
     font-weight: 600;
     transition: 0.6s;
+   
 }
 
 nav > a:hover {
@@ -119,7 +124,7 @@ nav > a:hover {
 main.principal {
     background-color: white;
     min-width: 320px;
-    max-width: 1200px;
+    max-width: 1024px;
     margin: auto;
     margin-bottom: 20px;
     border-radius: 0px 0px 10px 10px;
