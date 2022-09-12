@@ -66,7 +66,7 @@
 
 
 /* ================= atendimento.html =========== */
-@media all and (min-width:380px) and (max-width:768px){
+@media all and (min-width:320px) and (max-width:768px){
   #campo-formulario {
     height: 350px;
     font-size: 1em;
@@ -79,13 +79,13 @@
     margin-bottom: 20px;
   }
   fieldset > .grupo-campo > input, fieldset > .grupo-campo > select {
-    height: 28px;
+    height: 25px;
     min-width: 220px;
-    width: 80%;
+    width: 85%;
     margin: auto;
   }
   fieldset > .grupo-campo > label {
-    margin-left: 30px;
+    margin-left: 10px;
   }
   .mapa-astral, .sol, .cartografia {
     height: 125px;
