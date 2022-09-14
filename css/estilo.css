@@ -69,26 +69,40 @@ header > p {
     
 }
 
-figure {
+ figure {
     margin: 25px 0;
     border-radius: 50%;
     position: relative;
-    animation-name: movimento;
-    animation-duration: 3s;
-    animation-delay: -1s;
+    /* animation-name: movimento; */
+    animation-duration: 6s;
     animation-iteration-count: infinite;
+} 
+
+figure {
+    margin: 25px 0;
+    border-radius: 50%;
+    
 }
 figure > img {
     width: 100px;
-
+    border-radius: 50%;
+    position: relative;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-name: rotacao;
 }
 
 @keyframes movimento {
-    0%  {box-shadow:1px 1px 10px 1px var(--cor1);top: -4%;}
+    0%  {box-shadow:1px 1px 10px 1px var(--cor1);top: -1%;}
     /* 25% {box-shadow:1px 1px 10px 1px var(--cor1);top: -3%;} */
-    50% {box-shadow:1px 1px 10px 1px var(--cor3);top:  0%;}
+    50% {box-shadow:1px 1px 10px 1px var(--cor3);top:  5%;}
     /* 75% {box-shadow:1px 1px 10px 1px var(--cor1);top:  5%;} */
-    100%{box-shadow:1px 1px 10px 1px var(--cor1);top: -4%;}
+    100%{box-shadow:1px 1px 10px 1px var(--cor1);top: -1%;}
+}
+
+@keyframes rotacao { 
+    0% {box-shadow:1px 1px 10px 1px var(--cor1); box-shadow:1px 1px 10px 1px var(--cor3);transform: rotate(0deg);}
+  100% {box-shadow:1px 1px 10px 1px var(--cor1); transform: rotate(360deg);}
 }
 
 nav {
