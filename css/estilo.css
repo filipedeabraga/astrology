@@ -13,6 +13,7 @@
     --cor4:#c18264;
     --cor5:#976a40;
     --cor6:#002643;
+    --cor7:#efddd4;
 
     --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque:'League Spartan', cursive;
@@ -28,11 +29,11 @@
 }
 
 body {
-    background-color: #efddd4;
+    background-color:var(--cor7);
     font-family: var(--fonte-padrao);
     font-size: 1em;
-    /* background-image: url('../_imagens/fundo.jpeg'); */
-    background-repeat: repeat-x repeat-y;
+    background: url('../imagens/fundo/003.png');
+    background-size: 4%;
 }
 
 header {
