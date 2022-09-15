@@ -13,10 +13,10 @@
     --cor5:#976a40;
     --cor6:#002643;
 
-    --font-padrao:Arial, Verdana, Hevética, sans-serif;
-    --font-destaque:'League Spartan', cursive;
-    --font-astrologia:'Montserrat', cursive;
-    --font-bonita:'Berskshire Swash', cursive;
+    --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:'League Spartan', cursive;
+    --fonte-astrologia:'Montserrat', cursive;
+    --fonte-bonita:'Berkshire Swash', cursive;
 }
 
 *{
@@ -27,7 +27,7 @@
 
 body {
     background-color: #efddd4;
-    font-family: var(--font-astrologia);
+    font-family: var(--fonte-padrao);
     font-size: 1em;
     /* background-image: url('../_imagens/fundo.jpeg'); */
     background-repeat: repeat-x repeat-y;
@@ -49,7 +49,7 @@ header {
 
 header > h1 {
     color: var(--cor0);
-    font-family: var(--font-destaque);
+    font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: bold;
     padding-bottom: 10px;
@@ -59,10 +59,10 @@ header > h1 {
 
 header > p {
     color: var(--cor0);
-    font-family: var(--font-astrologia);
+    font-family: var(--fonte-astrologia);
     font-size: 1.2em;
     font-weight: 500;
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
     padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.329);
@@ -107,7 +107,7 @@ figure > img {
 
 nav {
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor6));
-    /* background-color: var(--cor3); */
+    font-family: var(--fonte-padrao);
     width: 100%;
     padding: 20px;
     box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.434);
@@ -148,7 +148,7 @@ main.principal {
 }
 
 main > article > h1 {
-    font-family: var(--font-bonita);
+    font-family: var(--fonte-bonita);
     font-size: 1.5em;
     padding: 10px 0 10px 15px;
     border-radius: 25px 0px 0px 0px;
@@ -157,9 +157,8 @@ main > article > h1 {
 }
 
 main > article > h2 {
-    font-family: var(--font-bonita);
+    font-family: var(--fonte-bonita);
     font-size: 1.4em;
-    text-decoration: underline;
     padding: 10px 0px 10px 15px;
     margin-top: 30px;
     color: var(--cor5);
@@ -168,7 +167,7 @@ main > article > h2 {
 }
 
 main > article > p {
-    font-family: var(--font-astrologia);
+    font-family: var(--fonte-astrologia);
     font-size: 1.2em;
     font-weight: 500;
     line-height: 2em;
