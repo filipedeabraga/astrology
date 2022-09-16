@@ -129,7 +129,7 @@ nav > a {
     text-decoration: none;
     color:var(--cor0);
     padding: 15px 20px;
-    margin:0px 10px 0px 10px;
+    margin:0px 5px 0px 5px;
     border-radius: 15px;
     font-size: 1em;
     font-weight: 600;
@@ -139,7 +139,7 @@ nav > a {
 nav > a:hover {
     background-color: #00264376;
     color: #ffc9af;
-    margin: 0px 5px 0px 5px;
+    margin: 0px 30px 0px 30px;
 }
 
 main.principal {
