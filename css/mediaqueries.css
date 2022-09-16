@@ -62,7 +62,9 @@
     article > img, .foto01 {
       margin-bottom: 10px;
     }
-
+    footer {
+      height: 50px;
+    }
     footer > p {
       font-size: 0.75em;
     }
