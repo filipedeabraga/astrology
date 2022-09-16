@@ -3,10 +3,16 @@
   nav > a {
         margin: 0 15px 0 15px;
       }
+  nav > a:hover {
+    margin: 0px 7.5px 0px 7.5px;
+  }
 }
 @media (max-width:930px){
   nav > a {
     margin: 0 7.5px 0 7.5px;
+  }
+  nav > a:hover {
+    margin: 0px 3.5px 0px 3.5px;
   }
 }
 
@@ -46,6 +52,7 @@
     nav > a:hover {
         background-color: #00264376;
         color: #ffc9af;
+        margin: 0 1.25px 0 1.25px;
     }
 
     main {
