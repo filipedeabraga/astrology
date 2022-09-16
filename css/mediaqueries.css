@@ -146,4 +146,14 @@
 
 }
 
+@media (max-width:450px){
+  #campo-formulario {
+    height: 315px;
+  }
+ fieldset > .grupo-campo > input, fieldset > .grupo-campo > select {
+    height: 25px;
+    width: 85%;
+  }
+}
+
 /* ============================================== */
