@@ -15,6 +15,7 @@
         width: 300px;
         padding-bottom: 70px;
         text-shadow: 0.3px 0.3px 0px rgba(0, 0, 0, 0.358);
+        font-weight: 500;
     }
     header > figure > img {
         width: 50px;
@@ -27,14 +28,15 @@
         text-align: center;
     }
     nav > a {
-        margin: 0 1px 0 1px;
-        font-size: 0.65em;
-        padding: 5px 5px;
+        margin: 0 1.5px 0 1.5px;
+        font-size: 0.75em;
+        padding: 5px 10px;
+        font-weight: 600;
     }
     nav > a:hover {
         background-color: #00264376;
         color: #ffc9af;
-        font-size: 0.7em;
+        font-size: 0.8em;
         margin: 0px 1px 0px 1px;
     }
 }
@@ -56,9 +58,16 @@
     main > article > p {
         font-size: 0.85em;
         padding: 5px;
-    }
+      }
     article > img, .foto01 {
       margin-bottom: 10px;
+    }
+
+    footer > p {
+      font-size: 0.75em;
+    }
+    footer#rodape > img {
+      width: 30px;
     }
    
 }
