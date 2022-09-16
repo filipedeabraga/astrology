@@ -119,7 +119,7 @@
 
 
 /* ================= atendimento.html =========== */
-@media all and (min-width:320px) and (max-width:768px){
+@media (max-width:768px){
   #campo-formulario {
     height: 350px;
     font-size: 1em;
