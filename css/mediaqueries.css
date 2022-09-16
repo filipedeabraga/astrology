@@ -153,6 +153,11 @@
  fieldset > .grupo-campo > input, fieldset > .grupo-campo > select {
     height: 25px;
     width: 85%;
+    margin: auto;
+  }
+
+  #campo-formulario > button{
+    margin: auto;
   }
 }
 

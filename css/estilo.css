@@ -132,7 +132,7 @@ nav > a {
     margin:0px 2px 0px 2px;
     border-radius: 15px;
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 600;
     transition: 0.6s;
 }
 
@@ -145,7 +145,7 @@ nav > a:hover {
 main.principal {
     background-color: white;
     min-width: 320px;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: auto;
     margin-bottom: 20px;
     border-radius: 0px 0px 10px 10px;
