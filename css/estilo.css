@@ -190,7 +190,7 @@ article > img, img.foto01 {
 }
 
 footer {
-    height: 90px;
+    height: 100px;
     background-color:var(--cor6);
     padding: 20px;
     color: var(--cor1);
